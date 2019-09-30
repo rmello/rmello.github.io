@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rmello
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rmello.github.io
+  * I am rmello (https://keybase.io/rmello) on keybase.
+  * I have a public key ASDBXf9XhU0y5UIyB_NB6nYMMQZ0ReLfqLpZcF9f3q7QXQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120950ee46b557334f09798ebf329c71f834e42e42d56ea63600119a930aeaa324f0a",
+      "host": "keybase.io",
+      "kid": "0120c15dff57854d32e5423207f341ea760c31067445e2dfa8ba59705f5fdeaed05d0a",
+      "uid": "8f1086b1634c9fc23d50610de394a519",
+      "username": "rmello"
+    },
+    "merkle_root": {
+      "ctime": 1569844100,
+      "hash": "2c22bd9e20ffcd3bdaee63016d20122f95ae23773631b3d216cdb9b687f8b8a460a39e3118845b48c87ae75ec743f3c2b8da18a96c78bc92c6476165857c3bf5",
+      "hash_meta": "cfc75d8de8602f31276ad696889f196903bfa0d2b03b89bd06c20854ab78b75d",
+      "seqno": 7807518
+    },
+    "service": {
+      "entropy": "G2U2IMxVrxp+g8oCopK+Coct",
+      "hostname": "rmello.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1569844104,
+  "expire_in": 504576000,
+  "prev": "9f8f61b1c99649378403d357432c4eca200c50a5b117145b23eb4cef235a17c0",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwV3/V4VNMuVCMgfzQep2DDEGdEXi36i6WXBfX96u0F0Kp3BheWxvYWTESpcCEMQgn49hscmWSTeEA9NXQyxOyiAMUKWxFxRbI+tM7yNaF8DEIG50Pyrgn3rsDGLRPH3WNqXpUxd9nfOjMFMbCpKDw+O+AgHCo3NpZ8RAP5YgPVzkteqIYeQXm8lCVaIYewP8+jVDRzrOT/l1d2fWO3dCeiMFCV70l3/3/jH6M5bPyI4b8/LcaKGj+eLOBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGfxwWiewhrohgjFKshrG594eRwQXzJPhxWIBVivwfcto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rmello
+
+==================================================================
