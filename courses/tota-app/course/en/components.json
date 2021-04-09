@@ -1,0 +1,38 @@
+[
+  {
+    "_component": "h5p",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "60708e5e07adda001d321d27",
+    "_parentId": "60708e3107adda001d321d25",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_source": "course/en/assets/4dc388a60e32985949d2a686fe23ca2c2b867783.h5p",
+    "_scrolling": "no",
+    "_width": {
+      "_small": 0,
+      "_medium": 0,
+      "_large": 0
+    },
+    "_height": {
+      "_small": 0,
+      "_medium": 0,
+      "_large": 0
+    }
+  }
+]
