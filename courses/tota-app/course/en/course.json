@@ -122,6 +122,13 @@
       "_boxMenu": {
         "durationLabel": "Duration:"
       }
+    },
+    "_extensions": {
+      "_xapi": {
+        "confirm": "OK",
+        "lrsConnectionErrorTitle": "LRS not available",
+        "lrsConnectionErrorMessage": "We were unable to connect to your Learning Record Store (LRS). This means that your progress cannot be recorded."
+      }
     }
   },
   "_type": "course",

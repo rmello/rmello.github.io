@@ -1,0 +1,52 @@
+.h5p-spelling-game {
+	 font-family: Lato;
+	 font-size: 1.5rem;
+	 text-align: center;
+	 box-sizing: border-box;
+	 color: #333;
+}
+.h5p-spelling-game span {
+	 font-size: 90%;
+}
+.h5p-spelling-game input {
+	 margin: 0 5px;
+	 text-align: center;
+	 line-height: 80px;
+	 font-size: 50px;
+	 border: solid 1px #ccc;
+	 box-shadow: 0 0 5px #ccc inset;
+	 outline: none;
+	 width: 10%;
+	 transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+	 border-radius: 3px;
+	 caret-color: transparent;
+}
+.h5p-spelling-game input:focus {
+	 border-color: purple;
+	 box-shadow: 0 0 5px purple inset;
+}
+.h5p-spelling-game input::selection {
+	 background: transparent;
+}
+
+.h5p-spelling-game img {
+	width: 50%;
+}
+
+.h5p-spelling-game .letters {
+	display: block;
+}
+
+audio {
+	display: block;
+	margin-left: 40%;
+}
+
+
+canvas {
+  position: absolute;
+	top: 0;
+	left: 0;
+  z-index: 1;
+  pointer-events: none;
+}

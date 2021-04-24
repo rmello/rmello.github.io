@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+    <activities>
+        <activity id="https://tota-app.lxp.io" type="http://adlnet.gov/expapi/activities/course">
+            <name><![CDATA[Tota App]]></name>
+            <description lang="en-US"><![CDATA[]]></description>
+            <launch lang="en-US">index.html</launch>
+        </activity>
+    </activities>
+</tincan>

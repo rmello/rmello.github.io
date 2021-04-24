@@ -1,0 +1,49 @@
+[
+  {
+    "name": "words",
+    "type": "list",
+    "widgets": [
+      {
+        "name": "VerticalTabs",
+        "label": "Default"
+      }
+    ],
+    "label": "Words",
+    "importance": "high",
+    "entity": "word",
+    "min": 1,
+    "max": 100,
+    "field": {
+      "type": "group",
+      "name": "word",
+      "label": "Word",
+      "importance": "high",
+      "fields": [
+        {
+          "name": "word",
+          "type": "text",
+          "label": "Word to be spelled",
+          "importance": "high",
+          "description": "The word to be spelled."
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "label": "Image",
+          "importance": "high",
+          "optional": true,
+          "ratio": 1
+        },
+        {
+          "name": "audio",
+          "type": "audio",
+          "importance": "high",
+          "label": "Audio Track",
+          "description": "An optional sound reading the word out loud.",
+          "optional": true,
+          "widgetExtensions": ["AudioRecorder"]
+        }
+      ]
+    }
+  }
+]
