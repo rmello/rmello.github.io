@@ -43,22 +43,19 @@ H5P.SpellingGame = (function (EventDispatcher, $) {
       this.triggerXAPI('attempted');
       // TODO: Only create on first attach!
       $wrapper = $container.addClass('h5p-spelling-game').html('');
-      let $button = $('<button>INICIAR</button>').appendTo($wrapper).
+      let $button = $('<a class="button4">INICIAR</a>').appendTo($wrapper).
                     on('click', playCurrentWord)
     };
 
     playCurrentWord = function (event) {
       $wrapper = $wrapper.html('<canvas id="canvas"></canvas>');
-      words[currentWordIndex].appendTo($wrapper);
+      currentWord = words[currentWordIndex];
+      currentWord.appendTo($wrapper);
+      currentWord.selectCurrentLetter({});
       self.trigger('resize');
     };
 
     finishedWord = function (event) {
-      currentWordIndex += 1;
-      if (currentWordIndex == words.length) {
-        return;
-      }
-
       audioPlayer = document.createElement('audio');
       var source = document.createElement('source');
       source.src = H5P.getLibraryPath('H5P.SpellingGame-0.1') + '/audios/cheer_clap.mp3';
@@ -67,6 +64,8 @@ H5P.SpellingGame = (function (EventDispatcher, $) {
       audioPlayer.controls = null;
       audioPlayer.preload = 'auto';
       audioPlayer.play();
+
+      currentWordIndex = (currentWordIndex + 1) % words.length;
 
       setTimeout(playCurrentWord,5000)
     };

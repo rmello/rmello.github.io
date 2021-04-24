@@ -91,6 +91,7 @@
     self.selectCurrentLetter = function(event) {
       let currentLetter = $wrapper.find('.letters input').not(".correct")[0];
       if (!currentLetter) {
+        $wrapper.find('.letters input').blur();
         self.trigger('finishedWord')
       }
       currentLetter.focus();
